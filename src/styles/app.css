@@ -5,8 +5,8 @@
 }
 
 :root {
-  --accent: #3b82f6;
-  --accent-dark: #2563eb;
+  --accent: #f97316;
+  --accent-dark: #ea6c0a;
   --bg: #f3f4f6;
   --card-bg: #ffffff;
   --border: #e5e7eb;
@@ -136,7 +136,7 @@ body {
 .form-group select:focus {
   outline: none;
   border-color: var(--accent);
-  box-shadow: 0 0 0 3px rgba(59,130,246,0.15);
+  box-shadow: 0 0 0 3px rgba(249,115,22,0.15);
 }
 
 .field-error {

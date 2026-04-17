@@ -30,7 +30,7 @@ export default function WeeklyChart({ entries }) {
               formatter={(value) => [`${Number(value).toFixed(1)} mi`, 'Miles']}
               labelFormatter={(label) => `Week of ${label}`}
             />
-            <Bar dataKey="miles" fill="#3b82f6" radius={[4, 4, 0, 0]} />
+            <Bar dataKey="miles" fill="#f97316" radius={[4, 4, 0, 0]} />
           </BarChart>
         </ResponsiveContainer>
       </div>
